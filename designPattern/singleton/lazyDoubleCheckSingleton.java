@@ -6,7 +6,7 @@ import java.util.Objects;
  * @Auther: lss
  * @Date: 2020/5/30 08:33
  * @Description: 饿汉式单例(双重校验锁)
- * 问题：无法解决序列化和反射的问题
+ * 问题：无法解决序列化和反射的问题 
  */
 public class lazyDoubleCheckSingleton {
 
